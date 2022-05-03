@@ -33,7 +33,7 @@
         "handle": "fractal",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/rjgux/fractal/master/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/madebyraygun/fractal/master/CHANGELOG.md",
         "class": "madebyraygun\\fractal\\Fractal"
     }
 }
