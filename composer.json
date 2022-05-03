@@ -1,6 +1,6 @@
 {
-    "name": "ournameismud/fractal",
-    "description": "Custom Fractal plugin",
+    "name": "madebyraygun/fractal",
+    "description": "Fractal loader for Craft CMS",
     "type": "craft-plugin",
     "keywords": [
         "craft",
@@ -10,30 +10,30 @@
         "fractal"
     ],
     "support": {
-        "docs": "https://github.com/rjgux/fractal/blob/master/README.md",
-        "issues": "https://github.com/rjgux/fractal/issues"
+        "docs": "https://github.com/madebyraygun/fractal/blob/dev/README.md",
+        "issues": "https://github.com/madebyraygun/fractal/issues"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Rich @ Mud",
-            "homepage": "http://ournameismud.co.uk/"
+            "name": "Raygun Design, LLC",
+            "homepage": "https://madebyraygun.com"
         }
     ],
     "require": {
-        "craftcms/cms": "^3.0.0-RC1"
+        "craftcms/cms": "^4.0.0-RC2"
     },
     "autoload": {
         "psr-4": {
-            "ournameismud\\fractal\\": "src/"
+            "madebyraygun\\fractal\\": "src/"
         }
     },
     "extra": {
-        "name": "Fractal",
+        "name": "Fractal Loader",
         "handle": "fractal",
         "hasCpSettings": false,
         "hasCpSection": false,
         "changelogUrl": "https://raw.githubusercontent.com/rjgux/fractal/master/CHANGELOG.md",
-        "class": "ournameismud\\fractal\\Fractal"
+        "class": "madebyraygun\\fractal\\Fractal"
     }
 }
